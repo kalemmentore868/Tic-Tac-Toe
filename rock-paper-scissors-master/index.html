@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="script.js" defer></script>
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+    <div class="score-box"> <p class="score">SCORE</p> <p class="game-score">0</p> </div>
+  </header>
+
+  <section class="game-section">
+    <div class="img-box">
+      <div class="better-handling-pics-box">
+        <div class="paper-div choices">
+          <img class="paper-img" id="chose-paper" src="./images/icon-paper.svg" alt="icon for paper">
+        </div>
+         <div class="rock-div choices">
+          <img class="rock-img" id="chose-rock" src="./images/icon-rock.svg" alt="icon for rock">
+         </div>
+        
+         <div class="scissors-div choices">
+          <img class="scissors-img" id="chose-scissors" src="./images/icon-scissors.svg" alt="icon for scissors">
+         </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="winner-section">
+    <div class="fight-box">
+      <div class="player">
+        <p class="fight-text">YOU PICKED</p>
+      </div>
+      <div class="computer">
+        <div class="loading-circle"></div>
+        <p class="fight-text">THE HOUSE PICKED</p>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="result">
+    <h2 class="win">YOU WIN</h2>
+    <h2 class="lose">YOU LOSE</h2>
+    <h2 class="draw">YOU DRAW</h2>
+
+    <div class="play-again">PLAY AGAIN</div>
+  </div>
+
+  <div class="rules-div">
+    <h2 id="rules">RULES</h2>
+    <img id="img-rules" src="./images/image-rules.svg" alt="pic of rules">
+  </div>
+
+
+</body>
+</html>
